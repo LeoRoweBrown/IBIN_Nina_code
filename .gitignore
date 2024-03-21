@@ -1,0 +1,8 @@
+// images
+*.tif
+
+// folders
+flows/
+flows/*
+unused/
+unused/*
