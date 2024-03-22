@@ -4,18 +4,17 @@ title: Cellpose and segmentation instructions
 
 Annotation of dataset with VAST
 ===============================
-
-![](file:///C:/Users/lnr19/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
+![](./imgs/clip_image002.jpg)
 
 Firstly, import the image stack for segmentation which must be 8-bit. You will
 be prompted on import settings (it’s self-explanatory).
 
-![](file:///C:/Users/lnr19/AppData/Local/Temp/msohtmlclip1/01/clip_image004.jpg)
+![](./imgs/clip_image004.jpg)
 
 Once you import, add a new segmentation layer and you have the option to add 16
 empty segments.
 
-![](file:///C:/Users/lnr19/AppData/Local/Temp/msohtmlclip1/01/clip_image006.jpg)
+![](./imgs/clip_image006.jpg)
 
 Use - and + keys to change size of brush, hold right-click while you paint to
 erase. If you change the plane (up and down arrow keys) while painting (holding
@@ -25,20 +24,20 @@ paint depth. I tend to just do everything plate by plane.
 Ticking fill allows you to draw a boundary and it automatically fills the
 inside.
 
-![](file:///C:/Users/lnr19/AppData/Local/Temp/msohtmlclip1/01/clip_image008.jpg)
+![](./imgs/clip_image008.jpg)
 
 You can freely change the brightness of the image layer or the segmentation
 layer as you go.
 
-![](file:///C:/Users/lnr19/AppData/Local/Temp/msohtmlclip1/01/clip_image010.jpg)
+![](./imgs/clip_image010.jpg)
 
 If you want to segment in 3D e.g. for Stardist or intend to also train the model
 on XZ and YZ slices, it can be a good idea to segment in the different views
 (under view menu)
 
-![](file:///C:/Users/lnr19/AppData/Local/Temp/msohtmlclip1/01/clip_image012.jpg)
+![](./imgs/clip_image012.jpg)
 
-![](file:///C:/Users/lnr19/AppData/Local/Temp/msohtmlclip1/01/clip_image014.jpg)
+![](./imgs/clip_image014.jpg)
 
 Go through the full stack, changing the current slice with up and down arrow
 keys, annotating with unique segments as you go and adding new ones as
